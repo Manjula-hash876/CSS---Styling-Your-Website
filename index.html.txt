@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Hello, I'm Manjula 👋</h2>
+    <p>Aspiring Backend Engineer | DevOps Enthusiast</p>
+    <button>View My Work</button>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>I have experience in Mainframes, .NET, and cloud technologies like Azure and AWS.</p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+      <div class="card">
+        <h3>Project 1</h3>
+        <p>Data pipeline using AWS services.</p>
+      </div>
+
+      <div class="card">
+        <h3>Project 2</h3>
+        <p>Automation using Ansible and Jenkins.</p>
+      </div>
+
+      <div class="card">
+        <h3>Project 3</h3>
+        <p>Portfolio Website using HTML & CSS.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <button>Send Message</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Manjula | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
